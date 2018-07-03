@@ -1,0 +1,13 @@
+class animals():
+  def __init__(self,name,color):
+    self.name=name
+    self.color=color
+
+class dog(animals):
+  def Bark(self):
+    print("wooof!!!wooof!!!")
+
+shubi=dog("Shubi","Black")
+print(shubi.name)
+print(shubi.color)
+shubi.Bark()
